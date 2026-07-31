@@ -35,6 +35,7 @@ class MaterialBase:
     def __init__(self, density, thermal_contraction_data=None):
         self.density = density 
         self.thermal_contraction_data = thermal_contraction_data
+        akjsda=10
 
     # --- Methods that must be implemented by subclasses ---
     def calc_resistivity(self, **kwargs):
